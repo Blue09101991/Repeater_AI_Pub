@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-hotkeys-hook": "^4.4.1",
+    "react-markdown": "^8.0.7",
+    "remark-gfm": "^3.0.1"
+  }
+}

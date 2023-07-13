@@ -1,0 +1,70 @@
+.card-style {
+
+    background-color: aqua;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    /* border-radius: 12; */
+
+    /* sx={{ p: '20%', mb: 0, borderRadius: 12, mt: '20%', ml: 'auto', mr: 'auto' }} */
+
+    /* margin-top: 20%; */
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 210px;
+
+    color: aliceblue;
+
+
+}
+
+.card-style-signup {
+
+    background-color: aqua;
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+    /* border-radius: 12; */
+
+    /* sx={{ p: '20%', mb: 0, borderRadius: 12, mt: '20%', ml: 'auto', mr: 'auto' }} */
+
+    /* margin-top: 20%; */
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 210px;
+
+    color: aliceblue;
+
+
+}
+
+.box-style {
+    color: aliceblue;
+}
+
+.container-style {
+    color: aliceblue;
+}
+
+.text-style {
+    color: rgb(255, 255, 255);
+}
+
+.div-style {
+    color: aliceblue;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.div-button-style {
+    color: aliceblue;
+    align-items: center;
+}
+
+.div-style-confirm {
+    color: aliceblue;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}

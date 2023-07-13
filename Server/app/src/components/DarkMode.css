@@ -1,0 +1,94 @@
+:root {
+    --font-color: #333;
+    --background-color: #eee;
+    --link-color: rgb(64, 235, 87);
+}
+
+[data-theme="dark"] {
+    --font-color: #eee;
+    --background-color: #1f1c1c;
+    --link-color: rgb(8, 29, 219);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+/* Custom Dark Mode Toggle Element */
+
+.toggle-theme-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.toggle-theme-wrapper span {
+    font-size: 28px;
+    margin: 0 4px;
+}
+
+.toggle-theme {
+    position: relative;
+    display: inline-block;
+    height: 34px;
+    width: 60px;
+}
+
+.toggle-theme input {
+    display: none;
+}
+
+.slider {
+    background-color: #0DBA82;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: 0.2s;
+}
+
+.slider:before {
+    background-color: #f1eeee;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 26px;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+input:checked+.slider {
+    background-color: rgb(5, 57, 155);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* .navar {
+    --font-color: #eee;
+    --background-color: #070707;
+    --link-color: rgb(10, 185, 243);
+} */
+
+[data-theme="dark"].navar {
+    --font-color: #eee;
+    --background-color: #000000;
+    --link-color: rgb(238, 109, 34);
+}

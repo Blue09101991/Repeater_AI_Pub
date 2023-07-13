@@ -1,0 +1,37 @@
+.paper {
+    font-size: larger;
+    color: aqua;
+}
+
+.welcome-bg {
+    background-color: #2a07f0;
+    font-size: small;
+}
+
+.cardstyle {
+    background-color: "lightblue";
+}
+
+.welcome-bg1 {
+    background-color: #3915d6;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/public/static/font/font1.otf') format('truetype');
+}
+
+.toolbar-style {
+    background-color: rgb(52, 38, 179);
+    /* Set the desired background color here */
+    color: white;
+    /* Set the desired text color here */
+}
+
+.logo-style {
+    color: blue;
+}
+
+.logo-style:hover {
+    color: red;
+}
